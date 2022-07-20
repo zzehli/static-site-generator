@@ -3,31 +3,87 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/home.css">
     <title>insta485</title>
 </head>
 <body>
-    <header>
+    <nav>
+        <a href="/">
+            <img src="/images/logo.png" alt="inst logo" style="width:42px;height:42px;">
+        </a>
         <ul><li>
-                <a href="/">Home</a>
+                <a href="/explore/">explore</a>
             </li><li>
-                <a href="">link 1</a>
-            </li><li>
-                <a href="">link 2</a>
+                <a href="/users/awdeorio/">awdeorio</a>
             </li>
         </ul>
-    </header>
-    <!-- TODO: post -->
+    </nav>
+    <hr>
+    <!-- TODO: card -->
+    <!-- <img src="uploads/9887e06812ef434d291e4936417d125cd594b38a.jpg">
+    <img src="uploads/ad7790405c539894d25ab8dcf0b79eed3341e109.jpg>"> -->
     <main>
-        <article>
-            post1
-        </article>
-        <article>
-            post2
-        </article>
-        <article>
-            post3
-        </article>
+        <div class = "card">
+            <!-- name -->
+            <div class = "cardHeader">
+                <a class = "user" href = "/users/awdeorio/">
+                    <img src="uploads/5ecde7677b83304132cb2871516ea50032ff7a4f.jpg">
+                    <p>awdeorio</p>
+                </a>
+                <a class = "timestamp" href = "/posts/3/">10 minutes ago</a>
+            </div>
+            <img src="uploads/122a7d27ca1d7420a1072f695d9290fad4501a41.jpg">
+            <!-- comments -->
+            <div class = "cardComments">
+                <!-- number of likes need to be a var-->
+                <p class = "likes">1 like</p>
+                <ul class = "comments">
+                    <p><a href = "/users/awdeorio/">awdeorio</a>Good morning humans!</p>
+                    <p><a href = "/users/jflinn/">jflinn</a>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus saepe harum sunt ipsa mollitia cupiditate aperiam recusandae fugiat, libero, in ab nobis quibusdam voluptatibus iusto! Earum repellendus illo tempora provident.</p>
+                    <p><a href = "/users/michjc/">michjc</a>Cute!</p>
+                </ul>
+            </div>
+        </div>
+        <div class = "card">
+            <!-- name -->
+            <div class = "cardHeader">
+                <a class = "user" href = "/users/michjc/">
+                    <img src="uploads/e1a7c5c32973862ee15173b0259e3efdb6a391af.jpg">
+                    <p>michjc</p>
+                </a>
+                <a class = "timestamp" href = "/posts/2/">4 hours ago</a>
+            </div>
+            <img src="uploads/ad7790405c539894d25ab8dcf0b79eed3341e109.jpg">
+            <!-- comments -->
+            <div class = "cardComments">
+                <!-- number of likes need to be a var-->
+                <p class = "likes">2 likes</p>
+                <ul class = "comments">
+                    <p><a href = "/users/michjc/">michjc</a>Done!</p>
+                </ul>
+            </div>
+        </div>
+        <div class = "card">
+            <!-- name -->
+            <div class = "cardHeader">
+                <a class = "user" href = "/users/jflinn/">
+                    <img src="uploads/73ab33bd357c3fd42292487b825880958c595655.jpg">
+                    <p>jflinn</p>
+                </a>
+                <a class = "timestamp" href = "/posts/1/">1 day ago</a>
+            </div>
+            <img src="uploads/9887e06812ef434d291e4936417d125cd594b38a.jpg">
+            <!-- comments -->
+            <div class = "cardComments">
+                <!-- number of likes need to be a var-->
+                <p class = "likes">3 likes</p>
+                <ul class = "comments">
+                    <p><a href = "/users/jflinn/">jflinn</a>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus saepe harum sunt ipsa mollitia cupiditate aperiam recusandae fugiat, libero, in ab nobis quibusdam voluptatibus iusto! Earum repellendus illo tempora provident.</p>
+                    <p><a href = "/users/michjc/">michjc</a>Cute!</p>
+                </ul>
+            </div>
+        </div>
     </main>
-    <script src="/script.js"></script>
 </body>
 </html>
