@@ -28,6 +28,7 @@ main a:visited
     margin-bottom: 15px;
 }
 
+/* https://blog.logrocket.com/how-create-responsive-image-gallery-css-flexbox/ */
 .posts ul
 {
     display: flex;
